@@ -1,0 +1,12 @@
+name: trips
+
+config-version: 2
+version: 1.0
+
+profile: trips
+
+models:
+  trips:
+    raw_trips:
+      # materialize all models in models/events as tables
+      +materialized: table
